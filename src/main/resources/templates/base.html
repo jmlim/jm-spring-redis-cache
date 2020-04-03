@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Redis Cache test</title>
+</head>
+<body>
+
+<div id="wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {% block content %}
+                {# This section is to be overriden by child templates #}
+                {% endblock content %}
+            </div>
+        </div>
+
+    </div><!-- end container -->
+
+</div><!-- end wrap -->
+<script src="///ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
